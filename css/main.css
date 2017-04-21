@@ -1,0 +1,12 @@
+#cabecera{
+  position: static;
+  height: 50px;
+  background-color: pink;
+}
+#informacion{
+height: 800px;
+}
+#footer{
+  height: 50px;
+  background-color: blue;
+}
