@@ -1,12 +1,147 @@
+*{
+  font-family: 'Open Sans', sans-serif;
+}
 #cabecera{
   position: static;
   height: 50px;
-  background-color: pink;
+  background-color: white;
+  display:block;
 }
+
+.iconM{
+  width: 30px;
+  height: 30px;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+.cuadro{
+  height: 30px;
+  width: 90px;
+  padding-right: 20px;
+}
+
+#icons{
+  position: relative;
+  display: inline-block;
+  top: -5px;
+}
+#derecha{
+  background-color: white;
+  position: relative;
+  display: inline-block;
+  width: 350px;
+  height: 40px;
+  padding-top: 10px;
+  padding-left: 10px;
+}
+#izquierda{
+  background-color: white;
+  position: absolute;
+  display: inline-block;
+  width: 200px;
+  height: 40px;
+  padding-top: 10px;
+  padding-right: 10px;
+  right: 0px;
+}
+#span{
+  padding-left: 20px;
+  padding-right: 20px;
+  color: #B9B7B7;
+  font-size: 12px;
+}
+#circuloVerde{
+  position: relative;
+  display: inline-block;
+  border-radius: 30px;
+  background-color: green;
+  color: white;
+  width: 23px;
+  height: 21px;
+  text-align: center;
+  padding-top: 2px;
+  margin-left: 10px;
+  font-size: 12px;
+}
+.circuloImagen{
+  position: absolute;
+  display: inline-block;
+  border-radius: 30px;
+  width: 25px;
+  height: 25px;
+  margin-left: 10px;
+}
+.logoCodigo{
+  position: absolute;
+  display: inline-block;
+  left: 160px;
+  width: 25px;
+  height: 25px;
+}
+
 #informacion{
-height: 800px;
+height: 500px;
+width: 60%;
+position: relative;
+display: inline-block;
+background-color: white;
+left: 20%;
+padding-top: 30px;
+padding-left: 15px;
 }
-#footer{
+#centro{
+  position: relative;
+}
+.circuloImag{
+  position: absolute;
+  display: inline-block;
+  border-radius: 50px;
+  width: 50px;
   height: 50px;
-  background-color: blue;
+}
+#centroTexto{
+  position: absolute;
+  display: inline-block;
+  left: 70px;
+  top: 5px;
+}
+#contenido{
+  display: inline-block;
+  position: absolute;
+  top: 90px;
+}
+#nombre, #descripcion{
+  color: #B9B7B7;
+  font-size: 15px;
+}
+#titulo{
+  font-size: 40px;
+}
+#texto{
+  text-align: justify;
+  font-size: 20px;
+}
+
+#footer{
+  position: relative;
+  height: 30px;
+  background-color: white;
+  padding-top: 15px;
+  border-top: 1px solid #B9B7B7;
+}
+
+#ladoDerecho{
+  position: relative;
+  display: inline-block;
+  width: 200px;
+  height: 35px;
+  left: 20%;
+}
+
+#ladoIzquierdo{
+  position: absolute;
+  display: inline-block;
+  width: 200px;
+  height: 35px;
+  right: 10%;
 }
